@@ -1,0 +1,45 @@
+#Navi ul {
+  list-style: none;
+  background-color: #222;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+#Navi li {
+    display: inline-block;
+    margin-right: -5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  width: 120px;
+  border-bottom: 1px solid #888;
+}
+#Navi li a {
+   text-decoration: none;
+  color: #fff;
+  display: block;
+  transition:all .5s ease-out;
+}
+#Navi a:hover {
+  background-color: forestgreen;
+}
+nav.page-navigation .current a {
+    background-color: forestgreen;
+    border-bottom: 1px solid green;
+    opacity: 100%;
+    color: #fff;
+    
+}
+@media screen and (max-width:680px) {
+  #Navi.resp ul {position: relative;}
+  #Navi.resp ul li {
+    float: none;
+    display: inline;
+  }
+  #Navi.resp ul li a {
+    display: block;
+    text-align: left;
+  }
+}

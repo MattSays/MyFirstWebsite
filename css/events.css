@@ -1,0 +1,17 @@
+#ChiSono p:hover {
+    left: 200px;
+    font-size: 25px;
+}
+#Portfolio a:hover {
+    color: white;
+    
+}
+#circular1:hover {
+    border-radius: 150px;
+}
+#circular2:hover {
+    border-radius: 150px;
+}
+#circular3:hover {
+    border-radius: 150px;
+}
